@@ -25,7 +25,7 @@ const HeroSection = () => {
           {/* Avatar */}
           <div className="mb-8 flex justify-center">
             <Avatar className="w-32 h-32 border-4 border-blue-500/30 hover:border-blue-500 transition-all duration-300 hover:scale-105">
-              <AvatarImage src="/placeholder.svg" alt="Data Engineer" />
+              <AvatarImage src="/prof.png" alt="Data Engineer" />
               <AvatarFallback className="text-2xl bg-gradient-to-br from-blue-500 to-purple-600 text-white">DE</AvatarFallback>
             </Avatar>
           </div>
