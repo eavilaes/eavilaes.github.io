@@ -34,7 +34,7 @@ const AboutSection = () => {
             <span className="text-gradient">About Me</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            5+ years building robust data infrastructure and analytics solutions for business growth.
+            4+ years building robust data infrastructure and analytics solutions for business growth.
           </p>
         </div>
 

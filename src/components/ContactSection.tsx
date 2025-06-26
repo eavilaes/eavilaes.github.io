@@ -10,14 +10,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@dataengineer.dev",
-      link: "mailto:hello@dataengineer.dev"
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "avilaes.eric@gmail.com",
+      link: "mailto:avilaes.eric@gmail.com"
     },
     {
       icon: MapPin,
@@ -31,13 +25,13 @@ const ContactSection = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/eavilaes",
       color: "hover:text-gray-300"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/eavilaes",
       color: "hover:text-blue-400"
     }
   ];
@@ -112,7 +106,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="animate-slide-in-right">
+          {/* <div className="animate-slide-in-right">
             <Card className="glass-effect border-gray-700">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>
@@ -155,7 +149,7 @@ const ContactSection = () => {
                 </form>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

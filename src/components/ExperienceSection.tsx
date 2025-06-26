@@ -6,35 +6,35 @@ const ExperienceSection = () => {
   const experiences = [
     {
       role: "Senior Data Engineer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
+      company: "MANGO",
+      period: "Apr 2024 - Present",
       location: "Remote",
       achievements: [
-        "Built real-time data pipelines processing 10M+ events daily",
-        "Reduced data processing costs by 40% through optimization",
-        "Led migration to cloud-native architecture"
+        "Built data pipelines processing TB of information daily",
+        "Reduced data processing costs by 80% through optimization",
+        "Migrated old data stacks to DBT in Databricks and Snowflake"
+      ]
+    },
+    {
+      role: "Senior Data Engineer",
+      company: "BeonX",
+      period: "Oct 2023 - Mar 2024",
+      location: "Remote",
+      achievements: [
+        "Migrated data pipelines to DBT + Airflow",
+        "Managed datasets from thousands of customers",
+        "Set the foundations to build Data Lakes with Analytics"
       ]
     },
     {
       role: "Data Engineer",
-      company: "DataFlow Systems",
-      period: "2020 - 2022",
-      location: "San Francisco, CA",
+      company: "Qbeast",
+      period: "Apr 2021 - Oct 2023",
+      location: "Barcelona, Spain",
       achievements: [
-        "Designed ETL pipelines for multi-terabyte datasets",
-        "Implemented automated data quality monitoring",
-        "Collaborated with ML teams on feature engineering"
-      ]
-    },
-    {
-      role: "Junior Data Analyst",
-      company: "Analytics Pro",
-      period: "2019 - 2020",
-      location: "New York, NY",
-      achievements: [
-        "Created interactive dashboards using Tableau",
-        "Automated reporting processes saving 20+ hours/week",
-        "Analyzed customer behavior patterns for product insights"
+        "Developed data products collaborating on an open-source project: Qbeast format",
+        "Built a data platform to manage pipelines with DBT",
+        "Optimized customer pipelines reducing costs by more than 70%"
       ]
     }
   ];

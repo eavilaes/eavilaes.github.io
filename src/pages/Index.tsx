@@ -18,7 +18,7 @@ const Index = () => {
       <footer className="py-8 px-6 border-t border-gray-800 hover:border-gray-700 transition-colors duration-300">
         <div className="container mx-auto text-center">
           <p className="text-gray-400 hover:text-gray-300 transition-colors duration-300">
-            © 2024 Data Engineer Freelance. Crafted with passion for data.
+            © 2025 Eric Avila. Crafted with passion for data, with the help of Lovable.
           </p>
         </div>
       </footer>

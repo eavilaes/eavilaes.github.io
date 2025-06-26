@@ -31,9 +31,9 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-gradient hover:scale-105 inline-block transition-transform duration-300">Data Engineer</span>
+            <span className="text-gradient hover:scale-105 inline-block transition-transform duration-300">Eric Avila</span>
             <br />
-            <span className="text-white hover:text-blue-300 transition-colors duration-300">Freelance</span>
+            <span className="text-white hover:text-blue-300 transition-colors duration-300">Data Engineer</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto animate-slide-in-left" style={{ animationDelay: '0.3s' }}>
