@@ -4,39 +4,37 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Data Engineering",
+      skills: [
+        { name: "dbt", level: 92 },
+        { name: "Apache Airflow", level: 90 },
+        { name: "Data Lakes", level: 88 },
+        { name: "ETLs", level: 85 }
+      ]
+    },
+    {
+      title: "Programming & Cloud",
       skills: [
         { name: "Python", level: 95 },
-        { name: "SQL", level: 98 },
-        { name: "Scala", level: 85 },
-        { name: "R", level: 80 }
-      ]
-    },
-    {
-      title: "Big Data & Processing",
-      skills: [
-        { name: "Apache Spark", level: 90 },
-        { name: "Apache Kafka", level: 85 },
-        { name: "Apache Airflow", level: 92 },
-        { name: "Hadoop", level: 80 }
-      ]
-    },
-    {
-      title: "Cloud Platforms",
-      skills: [
+        { name: "SQL & NoSQL", level: 93 },
         { name: "AWS", level: 90 },
-        { name: "Google Cloud", level: 85 },
-        { name: "Azure", level: 80 },
-        { name: "Snowflake", level: 88 }
+        { name: "Kubernetes", level: 85 }
       ]
     },
     {
-      title: "Databases & Storage",
+      title: "Databases & Extraction",
       skills: [
-        { name: "PostgreSQL", level: 95 },
-        { name: "MongoDB", level: 85 },
-        { name: "Redis", level: 80 },
-        { name: "Elasticsearch", level: 82 }
+        { name: "PostgreSQL", level: 92 },
+        { name: "AWS Glue", level: 80 },
+        { name: "Web Scraping", level: 78 }
+      ]
+    },
+    {
+      title: "Analytics & Leadership",
+      skills: [
+        { name: "Data Visualization", level: 85 },
+        { name: "Machine Learning", level: 75 },
+        { name: "Project Management", level: 80 }
       ]
     }
   ];
@@ -48,9 +46,9 @@ const SkillsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gradient">Technical Skills</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A comprehensive toolkit for modern data engineering challenges
-          </p>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Tools I rely on to build reliable, scalable data platforms
+            </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

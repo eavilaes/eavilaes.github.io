@@ -10,20 +10,20 @@ const ExperienceSection = () => {
       period: "Apr 2024 - Present",
       location: "Remote",
       achievements: [
-        "Built data pipelines processing TB of information daily",
-        "Reduced data processing costs by 80% through optimization",
-        "Migrated old data stacks to DBT in Databricks and Snowflake"
+        "Scaled streaming and batch pipelines handling terabytes daily for one of Europe's largest retailers",
+        "Moved dozens of legacy workflows into dbt orchestrated with Airflow on Databricks and Snowflake, cutting costs by up to 80%",
+        "Delivered self-serve analytics through Looker dashboards for one of its biggest customers"
       ]
     },
     {
       role: "Senior Data Engineer",
-      company: "BeonX",
-      period: "Oct 2023 - Mar 2024",
+      company: "BEONx",
+      period: "Oct 2023 - Apr 2024",
       location: "Remote",
       achievements: [
-        "Migrated data pipelines to DBT + Airflow",
-        "Managed datasets from thousands of customers",
-        "Set the foundations to build Data Lakes with Analytics"
+        "Migrated cloud pipelines to AWS with dbt and Airflow to share data across teams",
+        "Handled terabytes of hotel revenue data, improving pipeline efficiency by 50%",
+        "Established the foundations for the company's first data lake architecture"
       ]
     },
     {
@@ -32,22 +32,33 @@ const ExperienceSection = () => {
       period: "Apr 2021 - Oct 2023",
       location: "Barcelona, Spain",
       achievements: [
-        "Developed data products collaborating on an open-source project: Qbeast format",
-        "Built a data platform to manage pipelines with DBT",
-        "Optimized customer pipelines reducing costs by more than 70%"
+        "Designed data lake products and cloud infrastructure while moving toward a Tech Lead role",
+        "Implemented data models, quality checks and team workflows using AWS, Kubernetes and dbt",
+        "Collaborated with stakeholders through dashboards in Looker and PowerBI"
+      ]
+    },
+    {
+      role: "Junior Big Data Engineer",
+      company: "Qbeast",
+      period: "Apr 2021 - Apr 2022",
+      location: "Barcelona, Spain",
+      achievements: [
+        "Contributed to the open-source qbeast-spark data lake format",
+        "Gained hands-on experience with data lake internals and multiple storage formats",
+        "Practiced agile collaboration using Kubernetes, Python, Scala, SQL and Git"
       ]
     }
   ];
 
   return (
-    <section className="py-20 px-6 relative">
+    <section id="experience" className="py-20 px-6 relative">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 hover:scale-105 transition-transform duration-300">
             <span className="text-gradient">Experience</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            A track record of delivering data solutions that drive business value
+            Highlights from building data platforms that empower global teams
           </p>
         </div>
 

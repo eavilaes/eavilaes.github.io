@@ -37,15 +37,14 @@ const ContactSection = () => {
   ];
 
   return (
-    <section className="py-20 px-6 relative">
+    <section id="contact" className="py-20 px-6 relative">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gradient">Let's Work Together</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Ready to transform your data infrastructure? Let's discuss how I can help 
-            your business unlock the power of data.
+            Have an idea or a challenge? Let's connect and explore how data can move your business forward.
           </p>
         </div>
 
@@ -55,8 +54,7 @@ const ContactSection = () => {
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
               <p className="text-gray-300 mb-8">
-                I'm always interested in discussing new opportunities and challenging projects. 
-                Whether you need a complete data platform or specific consulting, I'm here to help.
+                I'm always happy to talk about new opportunities and tough problems. Whether you need a full data platform or quick advice, I'm here to help.
               </p>
             </div>
 
