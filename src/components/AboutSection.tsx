@@ -29,14 +29,14 @@ const AboutSection = () => {
   return (
     <section className="py-20 px-6 relative">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 hover:scale-105 transition-transform duration-300">
-            <span className="text-gradient">About Me</span>
-          </h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            4+ years building robust data infrastructure and analytics solutions for business growth.
-          </p>
-        </div>
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 hover:scale-105 transition-transform duration-300">
+              <span className="text-gradient">About Me</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+              Data engineer with 4+ years designing cloud-native pipelines and analytics for international teams.
+            </p>
+          </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {highlights.map((item, index) => (
@@ -58,11 +58,10 @@ const AboutSection = () => {
 
         <div className="glass-effect rounded-2xl p-8 border-gray-700 animate-fade-in hover:border-blue-500/50 transition-all duration-300">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-white mb-4 hover:text-blue-300 transition-colors duration-300">My Approach</h3>
-            <p className="text-gray-300 max-w-3xl mx-auto">
-              Building data solutions that are scalable, maintainable, and aligned with business objectives. 
-              From data ingestion to visualization, every component works harmoniously to deliver actionable insights.
-            </p>
+              <h3 className="text-2xl font-bold text-white mb-4 hover:text-blue-300 transition-colors duration-300">My Approach</h3>
+              <p className="text-gray-300 max-w-3xl mx-auto">
+                I prioritize simple, cloud‑first architectures that teams can own. Pipelines are automated with dbt and Airflow, infrastructure is codified with Terraform, and dashboards in Looker, PowerBI or Preset keep insights accessible. I also tinker with scrapers that gather real-time data using Selenium and BeautifulSoup.
+              </p>
           </div>
         </div>
       </div>

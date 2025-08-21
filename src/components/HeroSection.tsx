@@ -40,19 +40,24 @@ const HeroSection = () => {
             Transforming data into powerful insights through scalable pipelines and advanced analytics.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-in-right" style={{ animationDelay: '0.6s' }}>
-            <Button 
-              size="lg" 
+          <div
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-in-right"
+            style={{ animationDelay: '0.6s' }}
+          >
+            <Button
+              asChild
+              size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg animate-pulse-glow hover:scale-105 transition-all duration-300"
             >
-              View My Work
+              <a href="#experience">View My Work</a>
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              asChild
+              variant="outline"
               size="lg"
               className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:border-blue-500 px-8 py-3 text-lg hover:scale-105 transition-all duration-300"
             >
-              Get In Touch
+              <a href="#contact">Get In Touch</a>
             </Button>
           </div>
         </div>
